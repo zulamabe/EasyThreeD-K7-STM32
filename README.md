@@ -1,5 +1,7 @@
-# Marlin 2 for EasyThreeD K9 with ET4000+ Board
-Working branch to port firmware for EasyThreeD K9 with ET4000+ Board. 
+# Marlin 2 for EasyThreeD K7 rev. B (Black and blue) with ET4000+ Board
+Working branch to port firmware for EasyThreeD K7 rev. B with ET4000+ Board. 
+
+This branch is a fork of ET4000PLUS-K9 with some minor tweaks that make the firmware work on a K7 refreshed version. Bear in mind that this firmware is not properly tested, and rev. B may have more differences, in comparison with K7, than additional buttons. The following part of README is a continuation of ET4000PLUS-K9's file.
 
 Some peripherals are missing and wifi board connector is used by the front panel buttons. 
 See https://github.com/schmttc/EasyThreeD-K7-STM32/issues/10 for details

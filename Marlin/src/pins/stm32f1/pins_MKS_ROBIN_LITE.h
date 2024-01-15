@@ -174,11 +174,11 @@
   #define EASYTHREED_LED_PIN         EXP3_01_PIN  // Indicator LED
 #endif
 
-#if ENABLED(EASYTHREED_K9_ET4000PLUS)
+#if ENABLED(EASYTHREED_K7_REV_B_ET4000PLUS) || ENABLED(EASYTHREED_K9_ET4000PLUS)
   #define BTN_HOME                   EXP3_07_PIN  // INPUT_PULLUP (unused) same
   #define BTN_FEED                   EXP3_02_PIN  // Run E Forward /same?
   #define BTN_RETRACT                EXP3_03_PIN  // Run E Backward /same?
-  #define BTN_PRINT                  PA11         // Start File Print K9 only
+  #define BTN_PRINT                  PA11         // Start File Print K7 rev.B/K9 only
   #define BTN_HOME_GND               EXP3_08_PIN  // OUTPUT (LOW) same
   #define BTN_FEED_GND               EXP3_05_PIN  // OUTPUT (LOW) same?
   #define BTN_RETRACT_GND            EXP3_06_PIN  // OUTPUT (LOW) same?
