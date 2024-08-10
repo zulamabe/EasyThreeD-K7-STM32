@@ -1,4 +1,6 @@
 # Marlin 2 for EasyThreeD K7 rev. B with ET4000+ Board
+En este fork del repositorio, modificare el mismo para lograr que la impresora EasyThreeD K7 funcione con unos motores nema en vez de los motores que venian de fabrica, ademas de agregarle una pantalla y algunas otras funcinalidades como mas endstops, tambien deseo agrandar el area de impresion de la maquina en cuestion.
+
 Working branch to port firmware for EasyThreeD K7 rev. B with ET4000+ Board. 
 
 This branch is a fork of ET4000PLUS-K9 with some minor tweaks that make the firmware work on a K7 refreshed version. Bear in mind that this firmware is not properly tested, and rev. B may have more differences, in comparison with K7, than additional buttons. The following part of README is a continuation of ET4000PLUS-K9's file.
